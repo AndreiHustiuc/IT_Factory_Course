@@ -82,3 +82,41 @@ lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
 lst.reverse()
 print(lst)
 
+#=========================================
+#Using .count() method, count how many times 6 occur in the list.
+
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+#  Type your code inside print() function.
+
+answer_1=lst.count(6)
+print(answer_1)
+
+#==========================================
+#What is the sum of all the numbers in the list?
+
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+
+#  Type your code on line 4:
+
+answer_1=sum(lst)
+print(answer_1)
+
+#==========================================
+#What is the minimum value in the list?
+
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+
+#  Type your code on line 4:
+
+answer_1=max(lst)
+print(answer_1)
+
+#=========================================
+#What is the maximum value in the list?
+
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+
+#  Type your code on line 4:
+
+answer_1=min(lst)
+print(answer_1)
