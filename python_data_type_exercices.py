@@ -3,7 +3,6 @@
 men_stepped_on_the_moon=20
 print(men_stepped_on_the_moon)
 
-
 #====================================================
 #Type a couple of words or a short sentence for your variable, then print it.
 
@@ -17,8 +16,6 @@ global_mean_sea_level_2018=21
 
 #Type your code here.
 global_mean_sea_level_2018=21.36
-
-
 print(global_mean_sea_level_2018)
 
 #=======================================================
