@@ -174,3 +174,59 @@ lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99, 54, 101]
 new_lst = lst
 print(new_lst)
 
+#Write a Python program to remove the nth index character from a non empty string.
+sample_string = 'occurrences'
+n_index = 3
+res = sample_string.replace(sample_string[n_index], '')
+print(res)
+
+#Write a Python program to change a given string to a new string where the first and last chars have been exchanged.
+sample_string = 'dictionaries'
+res = sample_string[-1] + sample_string[1:len(sample_string)-1] + sample_string[0]
+print(res)
+
+#Write a Python program to remove the characters which have odd index values of a given string.
+sample_string = 'pseudopseudohipoparatiroidism'
+res = ''
+
+for i in range(len(sample_string)):
+    if i % 2 != 0:
+        continue
+    res = res + sample_string[i]
+    
+print(res)
+
+#Write a Python program to find the list of words that are longer than n from a given list of words.
+sample_list = ["CRV", "Outback", "XC90", "GL", "Cherokee", "Escalade"]
+longer_than_n = []
+n = 5
+
+for item in sample_list:
+    if len(item) > n:
+        longer_than_n.append(item)
+        
+print(longer_than_n)
+
+#Write a Python program to count the occurrences of each word in a given sentence.
+sample_string = 'Write a Python program to change a given string to a new string where the first and last chars have been exchanged'
+
+new_list = sample_string.split(' ')
+new_dict = {}
+
+for item in new_list:
+    new_dict.update({item: new_list.count(item)})
+
+for key, value in new_dict.items():
+    print(f'Thw word [{key}] is present {value} many times.')
+    
+#Write a Python function that takes two lists and returns True if they have at least one common member.
+first_list = ['CRV', 'Outback', 'XC90', 'GL', 'Cherokee', 'Escalade']
+second_list = ['Supra', 'Passat', 'IS300', 'Impreza']
+
+def common_member(list_1, list_2):
+    for i in list_1:
+        for j in list_2:
+            if i == j:
+                print(True)
+            
+common_member(first_list, second_list)
