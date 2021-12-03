@@ -14,7 +14,7 @@ print(answer_2)
 #==========================================
 #Create an empty tuple on line 3 and assign its type on line 4
 
-bucket_list=set()   #bucket_list = ()
+bucket_list=()
 answer_2=type(bucket_list)
 print(answer_2)
 
