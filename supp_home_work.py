@@ -9,7 +9,6 @@
 import string
 
 alphabet = list(string.ascii_lowercase)
-alphabet_string = ''.join(alphabet)
 vowels = ['a', 'e', 'i', 'o', 'u']
 
 how_many_vowels = 0
@@ -24,15 +23,18 @@ print(f'In the alphabet are {how_many_vowels} vowels')
 print(f'In the alphabet are {how_many_consonants} consonants')
 
 exist = 0
-name = input('Enter your name: ').lower()
+name = ''
+while exist <= len(name):
+    name = input('Enter your name: ').lower()
 
-for i in name[0:]:
-    for j in alphabet[0:]:
-        if i == j:
-            exist = exist + 1
-
-if len(name) == exist:
-    print('All letters are in the alphabet')
-else:
-    print(f'There are {len(name) - exist} letter(s) that are not in the alphabet, please use only latin letters')
-
+    for i in name[0:]:
+        for j in alphabet[0:]:
+            if i == j:
+                exist = exist + 1
+    
+    if len(name) == exist:
+        print('All letters are in the alphabet')
+        break
+    else:
+        print(f'There are {len(name) - exist} letter(s) that are not in the alphabet, please use only latin letters')
+        exist = 0
