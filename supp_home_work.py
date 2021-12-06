@@ -34,5 +34,5 @@ for i in name[0:]:
 if len(name) == exist:
     print('All letters are in the alphabet')
 else:
-    print(f'There are {len(name) - exist} letter(s) that are not in the alphabet ')
+    print(f'There are {len(name) - exist} letter(s) that are not in the alphabet, please use only latin letters')
 
