@@ -4,6 +4,7 @@ Find the longest word in a string, if there are more than one with same size, re
 
 sample_string = 'Find the longest word in a string, if there are more than one with same size, return the first one'
 
+#using list
 lst_string = sample_string.split(' ')
 len_words = []
 
@@ -17,9 +18,9 @@ dict_string = {}
 for item in lst_string:
     dict_string.update({item: len(item)})
     
-def get_key(val):
+def get_key_from_value(val):
     for key, value in dict_string.items():
         if val == value:
             return key
         
-print(get_key(max(dict_string.values())))
+print(get_key_from_value(max(dict_string.values())))
