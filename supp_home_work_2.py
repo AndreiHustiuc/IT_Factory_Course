@@ -17,10 +17,10 @@ print(lst_string[len_words.index(max(len_words))])
 dict_string = {}
 for item in lst_string:
     dict_string.update({item: len(item)})
-    
+
 def get_key_from_value(val):
     for key, value in dict_string.items():
         if val == value:
             return key
-        
+
 print(get_key_from_value(max(dict_string.values())))
