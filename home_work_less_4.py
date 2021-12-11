@@ -93,6 +93,8 @@ item = 'yellow'
 print(f'Index of item [{item}] is: {my_tup.index(item)}')
 print('\n')
 
+
+
 # SET
 print('SET')
 
@@ -229,6 +231,8 @@ print(f'Before: {my_set}')
 my_set.clear()
 print(f'After: {my_set}')
 print('\n')
+
+
 
 # DICTIONARY
 print('DICTIONARY')
