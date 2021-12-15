@@ -32,5 +32,3 @@ elif tutorial == 2:
     if not y:
         print('Welcome!')
 
-elif tutorial == 3:
-
