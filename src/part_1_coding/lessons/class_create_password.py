@@ -49,13 +49,12 @@ class CreatePassword:
         return self.generate_pwd(lower_case=True)
 
     def generate_strong_pwd(self):
-
         return self.generate_pwd(lower_case=True, upper_case=True, numbers=True, special=True)
 
 
 p = CreatePassword(9)
 # print(p.generate_pwd(numbers=True, lower_case=True))
 # print(p.generate_weak_pwd())
-print(p.generate_strong_pwd())
+# print(p.generate_strong_pwd())
 
 # todo: designul unei alte clase pentru pass generator folosind metodele(Upper_case, Special, Numbers, etc)
