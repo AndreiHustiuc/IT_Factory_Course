@@ -20,7 +20,7 @@ def my_unit_test(func):
     return wrapper
 
 
-@my_unit_test
+@my_unit_test  # Injectam comportament auxiliar
 def my_test_1(a):
     assert a in [1, 2, 3]
 

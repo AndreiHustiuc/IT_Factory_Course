@@ -5,11 +5,15 @@ class Driver:
     def __add__(self, other):
         return self._name + other
 
-    def __str__(self):
-        return f'Driver to {self._name}'
+    # def __str__(self):
+    #     return f'Driver to {self._name}'
+
+    def __repr__(self):
+        return f"Driver to {self._name}"
 
 
 driver = Driver('Chrome')
-print(driver + 'Firefox')
+print(driver)
+
 
 # todo: de incercat si alte metode bilt-in
