@@ -2,6 +2,8 @@ import os
 from fuzzywuzzy import fuzz
 
 from src.part_2_automation.data_driven.parser import get_input_data
+from src.part_2_automation.data_driven.parser_csv_file import get_input_data_csv
+
 
 
 def my_test_case(input_data, expected_data):
@@ -24,3 +26,7 @@ for key, value in data.items():
     # print(key, value)
     status = my_test_case(data[key]['input'], data[key]['expected'])
     print(status)
+
+
+
+
