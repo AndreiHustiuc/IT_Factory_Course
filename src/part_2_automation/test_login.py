@@ -1,0 +1,49 @@
+from selenium import webdriver
+import time
+
+from selenium.webdriver.common.by import By
+
+driver = webdriver.Chrome(
+    executable_path='C:\\Users\\Moldoveanu\\Documents\\GitHub\\IT_Factory_Course\\src\\part_2_automation\\drivers\\chromedriver.exe')
+driver.get('https://the-internet.herokuapp.com/login')
+driver.implicitly_wait(5)
+driver.maximize_window()
+
+# Test invalid username login
+USERNAME = (By.ID, 'username')
+PASSWORD = (By.ID, 'password')
+LOGIN = (By.CLASS_NAME, 'radius')
+MESSAGE = (By.ID, 'flash')
+SUB_HEADER = (By.CLASS_NAME, 'subheader')
+LOGOUT = (By.CSS_SELECTOR, '#content > div > a')
+
+driver.find_element(*USERNAME).send_keys('username')
+driver.find_element(*PASSWORD).send_keys('password')
+driver.find_element(*LOGIN).click()
+
+actual_message = driver.find_element(*MESSAGE).text
+assert 'invalid' in actual_message
+
+user_pwd = driver.find_element(*SUB_HEADER).text
+new_list = user_pwd.split('.')[1].split()
+
+user, pwd = '', ''
+for i in range(len(new_list)):
+    if new_list[i] == 'Enter':
+        user = new_list[i + 1]
+    if new_list[i] == 'and':
+        pwd = new_list[i + 1]
+
+driver.find_element(*USERNAME).send_keys(user)
+driver.find_element(*PASSWORD).send_keys(pwd)
+driver.find_element(*LOGIN).click()
+
+actual_message = driver.find_element(*MESSAGE).text
+assert 'logged' in actual_message
+
+driver.find_element(*LOGOUT).click()
+
+# time.sleep(5)
+# driver.quit()
+
+# todo: username si password - empty
