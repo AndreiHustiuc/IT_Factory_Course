@@ -51,6 +51,14 @@ assert 'logged' in actual_message
 
 driver.find_element(*LOGOUT).click()
 
+# Username and Password empty
+driver.find_element(*USERNAME).send_keys('')
+driver.find_element(*PASSWORD).send_keys('')
+driver.find_element(*LOGIN).click()
+
+actual_message = driver.find_element(*MESSAGE).text
+assert 'invalid' in actual_message
+
 # time.sleep(5)
 driver.quit()
 
