@@ -24,15 +24,23 @@ driver.find_element(*LOGIN).click()
 actual_message = driver.find_element(*MESSAGE).text
 assert 'invalid' in actual_message
 
+
+# Test valid username and password login
 user_pwd = driver.find_element(*SUB_HEADER).text
 new_list = user_pwd.split('.')[1].split()
 
-user, pwd = '', ''
-for i in range(len(new_list)):
-    if new_list[i] == 'Enter':
-        user = new_list[i + 1]
-    if new_list[i] == 'and':
-        pwd = new_list[i + 1]
+# First variant
+# user, pwd = '', ''
+# for i in range(len(new_list)):
+#     if new_list[i] == 'Enter':
+#         user = new_list[i + 1]
+#     if new_list[i] == 'and':
+#         pwd = new_list[i + 1]
+
+# Second variant
+user_pass = driver.find_elements(By.XPATH, '//h4[@class="subheader"]//em')
+user = user_pass[0].text
+pwd = user_pass[1].text
 
 driver.find_element(*USERNAME).send_keys(user)
 driver.find_element(*PASSWORD).send_keys(pwd)
@@ -44,6 +52,6 @@ assert 'logged' in actual_message
 driver.find_element(*LOGOUT).click()
 
 # time.sleep(5)
-# driver.quit()
+driver.quit()
 
 # todo: username si password - empty
