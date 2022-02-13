@@ -8,7 +8,7 @@ AGREE_BUTTON = (By.ID, 'L2AGLb')
 SEARCH_BOX = (By.NAME, 'q')
 NEXT_PAGE = (By.ID, 'pnnext')
 SEARCHED_ELEMENT = (By.XPATH, '//h3[@class = "LC20lb MBeuO DKV0Md"]')
-DRIVER = webdriver.Chrome('..\\part_2_automation\\drivers\\chromedriver.exe')
+DRIVER = webdriver.Chrome('../../part_2_automation/drivers/chromedriver.exe')
 LINK = 'https://www.google.com'
 
 
