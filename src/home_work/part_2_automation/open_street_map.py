@@ -31,7 +31,9 @@ def find_one_city(driver, city):
     driver.find_element(*SEARCH_BAR).send_keys(city)
     driver.find_element(*GO_BUTTON).click()
     time.sleep(3)
-    driver.find_element(*SELECT_CITY).click()
+    actual_value = driver.find_element(*SELECT_CITY).text
+
+    assert 'Timișoara' in actual_value
 
 
 def find_multiple_cities(driver, city_list):
@@ -153,7 +155,7 @@ def teardown(driver):
 
 def main():
     setup(driver=DRIVER, link=LINK)
-    # find_one_city(driver=DRIVER, city='Timisoara')
+    find_one_city(driver=DRIVER, city='Timisoara')
     # find_multiple_cities(driver=DRIVER, city_list=CITIES)
     # get_a_route(driver=DRIVER, city_list=CITIES)
     # get_a_route_with(driver=DRIVER, city_list=CITIES)

@@ -1,0 +1,16 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test_1 (src.part_2_automation.test_auth.Authentication) ... OK (5.379641)s
+ test (src.part_2_automation.context_menu.ContextMenu) ... OK (9.163700)s
+ test (src.part_2_automation.multitab.Multitab) ... OK (8.282722)s
+
+----------------------------------------------------------------------
+Ran 3 tests in 0:00:22
+
+OK
+
+
+
+Generating HTML reports... 
+reports\Smoke Test Result_2022-02-20_15-02-45.html
