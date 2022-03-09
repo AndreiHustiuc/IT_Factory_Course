@@ -11,3 +11,4 @@ class Autocomplete(BasePage):
 
     def enter_street_address_name(self, street_number):
         self._driver.find_element(By.ID, self.STREET_ADDRESS_ID).send_keys(street_number)
+

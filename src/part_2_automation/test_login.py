@@ -4,7 +4,7 @@ import time
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome(
-    executable_path='C:\\Users\\Moldoveanu\\Documents\\GitHub\\IT_Factory_Course\\src\\part_2_automation\\drivers\\chromedriver.exe')
+    executable_path='/src/part_2_automation/bdd_example/features/steps/chromedriver.exe')
 driver.get('https://the-internet.herokuapp.com/login')
 driver.implicitly_wait(5)
 driver.maximize_window()

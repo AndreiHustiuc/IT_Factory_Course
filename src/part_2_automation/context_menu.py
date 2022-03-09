@@ -10,7 +10,7 @@ class ContextMenu(unittest.TestCase):
     BOX = (By.ID, 'hot-spot')
 
     def setUp(self) -> None:
-        self.driver = webdriver.Chrome(executable_path='..\\part_2_automation\\drivers\\chromedriver.exe')
+        self.driver = webdriver.Chrome(executable_path='drivers/chromedriver.exe')
 
         self.driver.implicitly_wait(5)
         self.driver.maximize_window()
