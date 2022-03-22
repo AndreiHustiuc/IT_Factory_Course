@@ -1,0 +1,3675 @@
+{
+  'version': 0.6,
+  'generator': 'Overpass API 0.7.57.1 74a55df1',
+  'osm3s': {
+    'timestamp_osm_base': '2022-03-22T16:01:40Z',
+    'copyright': 'The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.'
+  },
+  'elements': [
+    {
+      'type': 'node',
+      'id': 130156802,
+      'lat': 53.3501917,
+      'lon': -6.2527615,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '21',
+        'addr:street': 'Store Street',
+        'amenity': 'pub',
+        'name': 'Le Monde Café Bar',
+        'phone': '+353 1 8134700',
+        'website': 'https://www.beresfordhotelifsc.com/en/bar/',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 132228340,
+      'lat': 53.3087656,
+      'lon': -6.1966601,
+      'tags': {
+        'addr:housenumber': '116',
+        'addr:postcode': 'A94 X2C6',
+        'addr:street': 'Rock Road',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/The-Old-Punchbowl-Booterstown-Dublin-157954084245890/',
+        'contact:instagram': 'https://www.instagram.com/explore/locations/254107079/',
+        'food': 'yes',
+        'live_music': 'yes',
+        'name': 'The Old Punch Bowl',
+        'opening_hours': 'Su 12:00-23:00; Mo-Th 11:00-23:30; Fr,Sa 11:00-00:30',
+        'phone': '+353-1-283-2356',
+        'website': 'http://theoldpunchbowl.ie/',
+        'wheelchair': 'limited',
+        'wheelchair:description:de': 'Tische nicht unterfahrbar nur im Biergarten'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 132775981,
+      'lat': 53.3441892,
+      'lon': -6.2490239,
+      'tags': {
+        'accommodation': 'yes',
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '1',
+        'addr:street': 'Lombard Street East',
+        'amenity': 'pub',
+        'name': 'The Lombard',
+        'opening_hours': 'Mo-Th 09:00-23:30; Fr-Sa 09:30-01:30; Su 10:00-23:00',
+        'source': 'visually identified',
+        'toilets:wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 132811831,
+      'lat': 53.356444,
+      'lon': -6.3706215,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Palmerstown House',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 132814618,
+      'lat': 53.3500748,
+      'lon': -6.3774029,
+      'tags': {
+        'amenity': 'pub',
+        'created_by': 'Potlatch 0.5d',
+        'name': 'Silver Granite'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 133193958,
+      'lat': 53.3305512,
+      'lon': -6.2605878,
+      'tags': {
+        'addr:street': 'Charlemont Mall',
+        'amenity': 'pub',
+        'name': 'The Barge Bar',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 205225934,
+      'lat': 53.3809524,
+      'lon': -6.2456914,
+      'tags': {
+        'addr:street': 'Swords Road',
+        'amenity': 'pub',
+        'name': 'The Viscount',
+        'outdoor_seating': 'no',
+        'smoking': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 247736479,
+      'lat': 53.3756656,
+      'lon': -6.2400375,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Goose Tavern'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 249425860,
+      'lat': 53.3679678,
+      'lon': -6.2267805,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Graingers'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 249426205,
+      'lat': 53.365756,
+      'lon': -6.2288162,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '16',
+        'addr:street': 'Malahide Road',
+        'amenity': 'pub',
+        'brewery': 'Carlsberg;Bulmers;Heineken',
+        'contact:facebook': 'https://www.facebook.com/kavanaghsmarino',
+        'internet_access': 'yes',
+        'name': "Marino House (Kavanagh's)",
+        'opening_hours': 'Mo-Th 10:30-23:30, Fr-Sa 10:30-00:30, Su 12:30-23:00',
+        'phone': '+353 1 8332786'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 256258286,
+      'lat': 53.3082485,
+      'lon': -6.22707,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Clubhouse'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 279464425,
+      'lat': 53.330686,
+      'lon': -6.2652379,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Lower Deck'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 279915988,
+      'lat': 53.3472531,
+      'lon': -6.2609685,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '24',
+        'addr:postcode': 'D01 E8P4',
+        'addr:street': 'Bachelors Walk',
+        'amenity': 'pub',
+        'name': 'Knightsbridge Bar'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 280958210,
+      'lat': 53.3389839,
+      'lon': -6.2733761,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '129',
+        'addr:street': 'The Coombe',
+        'alt_name': 'The Capstan Bar',
+        'amenity': 'pub',
+        'internet_access': 'wlan',
+        'internet_access:fee': 'no',
+        'name': "Fallon's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 282342105,
+      'lat': 53.3452765,
+      'lon': -6.2483476,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '18',
+        'addr:street': 'Lombard Street East',
+        'amenity': 'pub',
+        'name': 'The Wind Jammer'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 298085560,
+      'lat': 53.3418488,
+      'lon': -6.2495572,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '39-40',
+        'addr:street': 'Fenian Street',
+        'amenity': 'pub',
+        'name': 'The Gingerman',
+        'opening_hours': 'Mo-Th 11:30-00:30; Fr-Sa 11:30-01:30; Su 16:00-23:00',
+        'smoking': 'isolated',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 298721803,
+      'lat': 53.3424956,
+      'lon': -6.2885758,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Old Harbour'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 299224403,
+      'lat': 53.3100543,
+      'lon': -6.2832454,
+      'tags': {
+        'addr:housenumber': '105-107',
+        'addr:street': 'Terenure Road North',
+        'amenity': 'pub',
+        'name': "Vaughan's Eagle House",
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 299225092,
+      'lat': 53.3098046,
+      'lon': -6.2841368,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '5',
+        'addr:street': 'Terenure Place',
+        'amenity': 'pub',
+        'name': "Brady's",
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 303968050,
+      'lat': 53.3433273,
+      'lon': -6.2447582,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '81',
+        'addr:street': 'Pearse Street',
+        'amenity': 'pub',
+        'entrance': 'main',
+        'name': 'Padraig Pearse'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 305312829,
+      'lat': 53.345976,
+      'lon': -6.2695992,
+      'tags': {
+        'addr:housenumber': '14-15',
+        'addr:street': 'Ormond Quay Upper',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/Sin.E.Pub',
+        'contact:twitter': 'https://twitter.com/sin_e_dublin',
+        'email': 'sinedublin1@gmail.com',
+        'name': 'Sin É',
+        'opening_hours': 'Mo-We 15:00-01:00, Th 15:00-02:30, Fr-Sa 15:00-15:30, Su 15:00-01:00',
+        'phone': '+353 1 555 4036',
+        'smoking': 'outside'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 306276661,
+      'lat': 53.3470972,
+      'lon': -6.254074,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housename': 'Tara Street Station',
+        'addr:street': "George's Quay",
+        'alt_name': 'Sub Lounge',
+        'amenity': 'pub',
+        'name': "O'Reilly's",
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 310408293,
+      'lat': 53.343428,
+      'lon': -6.2698992,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '5-7',
+        'addr:postcode': 'D02 RH33',
+        'addr:street': 'Christchurch Place',
+        'amenity': 'pub',
+        'brewery': 'various',
+        'food': 'yes',
+        'internet_access': 'wlan',
+        'name': 'Bull & Castle',
+        'outdoor_seating': 'yes',
+        'smoking': 'outside',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 311099928,
+      'lat': 53.3502671,
+      'lon': -6.2674686,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:postcode': 'D01 K5N8',
+        'addr:street': 'Parnell Street',
+        'alt_name': 'The Woolshed',
+        'amenity': 'pub',
+        'cocktails': 'yes',
+        'contact:facebook': 'https://www.facebook.com/Woolshed.Dublin',
+        'contact:twitter': '@woolshedbaa',
+        'cuisine': 'grill',
+        'food': 'yes',
+        'name': 'Woolshed Baa & Grill',
+        'opening_hours': 'Mo-Tu 12:00-23:30; We 12:00-02:30; Th 12:00-02:00; Fr-Sa 12:00-01:00; Su 12:00-23:00',
+        'phone': '+35318724325',
+        'toilets:wheelchair': 'no',
+        'website': 'http://www.woolshedbaa.com/dublin',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312565824,
+      'lat': 53.3417065,
+      'lon': -6.227773,
+      'tags': {
+        'addr:street': 'Bridge Street',
+        'amenity': 'pub',
+        'name': 'Oarsman',
+        'toilets:wheelchair': 'no',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312566081,
+      'lat': 53.3417218,
+      'lon': -6.2276614,
+      'tags': {
+        'addr:street': 'Bridge Street',
+        'amenity': 'pub',
+        'name': 'John Clarke and Sons'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312566100,
+      'lat': 53.3417321,
+      'lon': -6.2275498,
+      'tags': {
+        'addr:street': 'Bridge Street',
+        'amenity': 'pub',
+        'name': 'Raytown Bar'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312569767,
+      'lat': 53.3386881,
+      'lon': -6.2229321,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '74',
+        'addr:postcode': 'D04 Y230',
+        'addr:street': 'Irishtown Road',
+        'amenity': 'pub',
+        'name': 'The Vintage Inn'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312569935,
+      'lat': 53.3384435,
+      'lon': -6.2226996,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '78–82',
+        'addr:postcode': 'D04 H6W7',
+        'addr:street': 'Irishtown Road',
+        'amenity': 'pub',
+        'contact:twitter': '@merrycobblerD4',
+        'name': 'The Merry Cobbler'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312574900,
+      'lat': 53.3323885,
+      'lon': -6.2152784,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '1',
+        'addr:street': 'Seafort Avenue',
+        'amenity': 'pub',
+        'food': 'yes',
+        'name': 'Ryans Sandymount House',
+        'opening_hours:covid19': 'open',
+        'outdoor_seating': 'yes',
+        'smoking': 'outside'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312574927,
+      'lat': 53.3328247,
+      'lon': -6.2152427,
+      'tags': {
+        'addr:street': 'Seafort Avenue',
+        'amenity': 'pub',
+        'name': "O'Reilly"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312576602,
+      'lat': 53.3285197,
+      'lon': -6.2289281,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '34-36',
+        'addr:postal_district': 'D04',
+        'addr:postcode': 'D04 C535',
+        'addr:street': 'Merrion Road',
+        'addr:suburb': 'Ballsbridge',
+        'amenity': 'pub',
+        'name': 'Horse Show House',
+        'operator': 'Madigans'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312576639,
+      'lat': 53.329027,
+      'lon': -6.2303506,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '14',
+        'addr:postcode': 'D04 Y0A9',
+        'addr:street': 'Merrion Road',
+        'addr:suburb': 'Ballsbridge',
+        'amenity': 'pub',
+        'name': 'Paddy Cullen'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312576904,
+      'lat': 53.3290583,
+      'lon': -6.2304295,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '12',
+        'addr:postcode': 'D04 T3Y7',
+        'addr:street': 'Merrion Road',
+        'addr:suburb': 'Ballsbridge',
+        'amenity': 'pub',
+        'name': 'Mary Mac’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 312577264,
+      'lat': 53.3291081,
+      'lon': -6.2305605,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '10',
+        'addr:postcode': 'D04 W6A0',
+        'addr:street': 'Merrion Road',
+        'addr:suburb': 'Ballsbridge',
+        'amenity': 'pub',
+        'name': 'Crowe’s',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 315252689,
+      'lat': 53.3113561,
+      'lon': -6.2830549,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '96',
+        'addr:street': 'Terenure Road North',
+        'amenity': 'pub',
+        'name': 'The Terenure Inn',
+        'opening_hours': 'Mo-Th 10:30-23:30, Fr-Sa 10:30-00:30, Su 12:30-23:00',
+        'phone': '+353 1 4907552',
+        'website': 'http://terenureinn.com/contact-us.html',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 335569489,
+      'lat': 53.3395798,
+      'lon': -6.3208057,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '207a',
+        'addr:postcode': 'D08 PN20',
+        'addr:street': 'Emmet Road',
+        'addr:suburb': 'Inchicore',
+        'amenity': 'pub',
+        'name': 'The Black Lion'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 335980359,
+      'lat': 53.3395619,
+      'lon': -6.3186912,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:postcode': 'D08 WT0A',
+        'addr:street': 'Emmet Road',
+        'addr:suburb': 'Inchicore',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/Timothy-Croughs-168742219842432',
+        'name': 'Timothy Crough’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 358543320,
+      'lat': 53.333764,
+      'lon': -6.2906371,
+      'tags': {
+        'addr:housenumber': '27',
+        'addr:street': "Dolphin's Barn Street",
+        'amenity': 'pub',
+        'name': 'Lowes Bar'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 358543587,
+      'lat': 53.3365462,
+      'lon': -6.299192,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Bird Flanagan',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 367411336,
+      'lat': 53.3419933,
+      'lon': -6.2646102,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '36',
+        'addr:postcode': 'D02 AX50',
+        'addr:street': "George's Street Great South",
+        'amenity': 'pub',
+        'name': 'Hogan’s Bar',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 415802976,
+      'lat': 53.3216994,
+      'lon': -6.2795312,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': "Harold's Cross Road",
+        'amenity': 'pub',
+        'internet_access': 'wlan',
+        'name': "McGarry's Bar",
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 415803254,
+      'lat': 53.312007,
+      'lon': -6.2748056,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Terenure Road East',
+        'amenity': 'pub',
+        'name': "Coman's",
+        'outdoor_seating': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 446783419,
+      'lat': 53.3353226,
+      'lon': -6.264995,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '18',
+        'addr:street': 'Camden Street Lower',
+        'amenity': 'pub',
+        'name': 'Anseo'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 446785642,
+      'lat': 53.3470056,
+      'lon': -6.2800493,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '5',
+        'addr:street': 'Queen Street',
+        'amenity': 'pub',
+        'name': "Frank Ryan's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 460836816,
+      'lat': 53.358416,
+      'lon': -6.255896,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '514',
+        'addr:street': 'North Circular Road',
+        'amenity': 'pub',
+        'name': 'The Hogan Stand'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 460836900,
+      'lat': 53.3447932,
+      'lon': -6.2676803,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '27-30',
+        'addr:postcode': 'D02 DP90',
+        'addr:street': 'Parliament Street',
+        'amenity': 'pub',
+        'email': 'reservations@paramounthotel.ie',
+        'food': 'yes',
+        'name': 'Turk’s Head',
+        'opening_hours': 'Mo-Th 16:00-03:00; Fr-Su 13:00-03:00',
+        'operator': 'Paramount Hotel',
+        'phone': '+353 1 679 2606',
+        'website': 'https://www.paramounthotel.ie/dine-drinks/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 467744840,
+      'lat': 53.3514331,
+      'lon': -6.2605934,
+      'tags': {
+        'addr:housenumber': '19',
+        'addr:street': "O'Connell Street Upper",
+        'amenity': 'pub',
+        'name': 'Madigans',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 467744856,
+      'lat': 53.3505727,
+      'lon': -6.2548867,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '81',
+        'addr:street': 'Talbot Street',
+        'amenity': 'pub',
+        'brewery': "Guinness;smithwick;Carlsberg;hop housse 13 lager;o'haras irish stout;o'haras irish red;Heineken",
+        'name': 'The Celt'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 467744860,
+      'lat': 53.3451275,
+      'lon': -6.2626961,
+      'tags': {
+        'amenity': 'pub',
+        'brewery': "guinness;carlsberg;heineken;Smithwick's",
+        'internet_access': 'wlan',
+        'name': 'The Old Storehouse'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 470326900,
+      'lat': 53.3498282,
+      'lon': -6.2778577,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '77',
+        'addr:postcode': 'D07 TP22',
+        'addr:street': 'North King Street',
+        'amenity': 'pub',
+        'contact:facebook': 'thecobblestone',
+        'contact:instagram': '@cobblestonepubdublin',
+        'contact:twitter': '@CobblestoneDub',
+        'email': 'info@cobblestonepub.ie',
+        'name': 'The Cobblestone',
+        'phone': '+35318721799',
+        'website': 'http://www.cobblestonepub.ie/',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 471773799,
+      'lat': 53.322212,
+      'lon': -6.2365571,
+      'tags': {
+        'addr:housenumber': '22-24',
+        'addr:street': 'Donnybrook Road',
+        'alt_name': 'Kielys of Donnybrook',
+        'amenity': 'pub',
+        'name': 'Kielys',
+        'opening_hours': 'Mo-Th 09:00-23:30; Fr-Sa 09:00-00:30; Su 09:00-23:00',
+        'phone': '+353 1 283 0209'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 475642367,
+      'lat': 53.3394911,
+      'lon': -6.3213412,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:postcode': 'D08 V670',
+        'addr:street': 'Grattan Crescent',
+        'addr:suburb': 'Inchicore',
+        'amenity': 'pub',
+        'name': 'The Grattan'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 475642453,
+      'lat': 53.3405122,
+      'lon': -6.3144898,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '97',
+        'addr:postcode': 'D08 FF97',
+        'addr:street': 'Emmet Road',
+        'amenity': 'pub',
+        'name': 'Coffey’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 479092745,
+      'lat': 53.3244179,
+      'lon': -6.2404203,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '83-85',
+        'addr:street': 'Morehampton Road',
+        'amenity': 'pub',
+        'name': 'McCloskeys',
+        'opening_hours': 'Mo-Fr 15:00+, Sa 12:30+, Su 15:00+',
+        'outdoor_seating': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 491319638,
+      'lat': 53.3610649,
+      'lon': -6.259692,
+      'tags': {
+        'addr:street': 'Dorset Street Lower',
+        'amenity': 'pub',
+        'name': 'The Red Parrott',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 503224346,
+      'lat': 53.3405863,
+      'lon': -6.2654253,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '12',
+        'addr:street': 'Aungier Street',
+        'amenity': 'pub',
+        'name': 'J.J. Smyth'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 516031805,
+      'lat': 53.3443491,
+      'lon': -6.2381779,
+      'tags': {
+        'addr:housenumber': '1',
+        'addr:street': 'Hanover Quay',
+        'amenity': 'pub',
+        'brand': 'Wetherspoon',
+        'brand:wikidata': 'Q6109362',
+        'brand:wikipedia': 'en:Wetherspoons',
+        'name': 'The South Strand',
+        'operator': 'Wetherspoons'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 538103859,
+      'lat': 53.3610075,
+      'lon': -6.2725355,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '159',
+        'addr:postcode': 'D07 HA21',
+        'addr:street': 'Phibsborough Road',
+        'alt_name': 'Mohan’s',
+        'amenity': 'pub',
+        'name': 'The Hut'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 543384713,
+      'lat': 53.3233007,
+      'lon': -6.2500808,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'McSorleys',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 559485123,
+      'lat': 53.3456404,
+      'lon': -6.2634165,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '10-12',
+        'addr:postcode': 'D02 EW63',
+        'addr:street': 'Temple Bar',
+        'amenity': 'pub',
+        'name': 'The Quays Bar',
+        'name:ga': 'Teic na Ceibe',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 559854615,
+      'lat': 53.3433784,
+      'lon': -6.2642836,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '11',
+        'addr:postcode': 'D02 V628',
+        'addr:street': "George's Street Great South",
+        'amenity': 'pub',
+        'name': 'The Globe',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 560602898,
+      'lat': 53.3221522,
+      'lon': -6.2659123,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '217',
+        'addr:postal_district': 'D06',
+        'addr:street': 'Rathmines Road Lower',
+        'amenity': 'pub',
+        'name': 'Martin B. Slattery'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 562072082,
+      'lat': 53.350879,
+      'lon': -6.2529113,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '74',
+        'addr:postcode': 'D01 E4H9',
+        'addr:street': 'Talbot Street',
+        'amenity': 'pub',
+        'name': '74 Talbot',
+        'toilets:wheelchair': 'no',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 564399648,
+      'lat': 53.3275519,
+      'lon': -6.2616703,
+      'tags': {
+        'addr:street': 'Mountpleasant Avenue Lower',
+        'amenity': 'pub',
+        'name': 'Mountpleasant Inn (Corrigans)'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 565770327,
+      'lat': 53.3233904,
+      'lon': -6.2503391,
+      'tags': {
+        'addr:housenumber': '129',
+        'addr:street': 'Ranelagh',
+        'amenity': 'pub',
+        'name': "Jack Birchall's Ranelagh House"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 576982879,
+      'lat': 53.332152,
+      'lon': -6.2339179,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Pembroke Road',
+        'amenity': 'pub',
+        'brewery': 'yes;various;guinness;spirits;wine;cocktails',
+        'email': 'info@ballsbridgehotel.com',
+        'name': 'The Dubliner',
+        'phone': '+353 1 637 9300'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 583257143,
+      'lat': 53.3362336,
+      'lon': -6.2734533,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '1',
+        'addr:postcode': 'D08 YK26',
+        'addr:street': 'Clanbrassil Street Lower',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/peadarbrowns',
+        'name': 'Peadar Browns',
+        'opening_hours': 'Mo-Th 10:30-11:30, Fr-Sa 10:30-12:30, Su 12:30-11:00',
+        'outdoor_seating': 'yes',
+        'website': 'https://peadarbrowns.com'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 583411333,
+      'lat': 53.3418854,
+      'lon': -6.2641559,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '3',
+        'addr:street': 'Fade Street',
+        'amenity': 'pub',
+        'name': 'The Secret Bar / The Bar With No Name',
+        'website': 'http://www.kellysdublin.com/food-and-drink/',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 583412899,
+      'lat': 53.3430824,
+      'lon': -6.2701176,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '23',
+        'addr:postcode': 'D08 RK00',
+        'addr:street': 'Christchurch Place',
+        'amenity': 'pub',
+        'name': 'The Lord Edward',
+        'phone': '+35314542420',
+        'website': 'http://www.lordedward.ie',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 592066036,
+      'lat': 53.3383463,
+      'lon': -6.2432199,
+      'tags': {
+        'addr:housenumber': '31-32',
+        'addr:street': 'Mount Street Lower',
+        'amenity': 'pub',
+        'name': "Oil Can Harry's",
+        'outdoor_seating': 'yes',
+        'website': 'http://oilcanharrys.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 612427114,
+      'lat': 53.3079564,
+      'lon': -6.3195456,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Laurels',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 612427116,
+      'lat': 53.3073383,
+      'lon': -6.3188972,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Pines',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 612623532,
+      'lat': 53.328038,
+      'lon': -6.304945,
+      'tags': {
+        'amenity': 'pub',
+        'cuisine': 'sandwich',
+        'internet_access': 'wlan',
+        'name': 'Shearys'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 613230592,
+      'lat': 53.3473641,
+      'lon': -6.2633612,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '9',
+        'addr:street': 'Liffey Street Lower',
+        'amenity': 'pub',
+        'name': 'The Lotts',
+        'outdoor_seating': 'yes',
+        'smoking': 'outside',
+        'toilets:wheelchair': 'yes',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 616479695,
+      'lat': 53.3357173,
+      'lon': -6.2568022,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '7',
+        'addr:street': 'Leeson Street Lower',
+        'amenity': 'pub',
+        'name': "Hourican's (Closed)"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 632666705,
+      'lat': 53.3498707,
+      'lon': -6.2788764,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '83',
+        'addr:postcode': 'D07 PF51',
+        'addr:street': 'North King Street',
+        'amenity': 'pub',
+        'name': "Delaney's",
+        'phone': '+35318730824',
+        'smoking': 'outside',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 632756503,
+      'lat': 53.3542365,
+      'lon': -6.2866899,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '79-80',
+        'addr:postcode': 'D07 E1RD',
+        'addr:street': 'Prussia Street',
+        'addr:suburb': 'Stoneybatter',
+        'amenity': 'pub',
+        'name': 'Hyne’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 635273448,
+      'lat': 53.3492625,
+      'lon': -6.2704646,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Ulysses House',
+        'addr:housenumber': '1-6',
+        'addr:postcode': 'D07 YT6H',
+        'addr:street': 'Green Street',
+        'amenity': 'pub',
+        'name': 'Bar 1661',
+        'website': 'https://bar1661.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 635338239,
+      'lat': 53.3456777,
+      'lon': -6.2718646,
+      'tags': {
+        'addr:housenumber': '1',
+        'addr:street': 'Inns Quay',
+        'alt_name': "O'Reilly Bros.",
+        'amenity': 'pub',
+        'contact:phone': '+353-1-6770420',
+        'contact:twitter': 'https://twitter.com/ChanceryInn',
+        'name': 'The Chancery Inn',
+        'opening_hours': 'Mo-Fr 09:00+, Sa 07:00+, Su 12:30+',
+        'outdoor_seating': 'no',
+        'smoking': 'no',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 636958169,
+      'lat': 53.3514108,
+      'lon': -6.2497907,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Connolly Station',
+        'addr:postcode': 'D01 V6V6',
+        'addr:street': 'Amiens Street',
+        'amenity': 'pub',
+        'cuisine': 'regional',
+        'layer': '1',
+        'name': 'Madigans Bar & Restaurant',
+        'smoking': 'no',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 639829717,
+      'lat': 53.3898897,
+      'lon': -6.2977657,
+      'tags': {
+        'amenity': 'pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 662938466,
+      'lat': 53.3015086,
+      'lon': -6.1778326,
+      'tags': {
+        'addr:housenumber': '15',
+        'addr:street': 'Main Street',
+        'amenity': 'pub',
+        'food': 'yes',
+        'name': "Jack O'Rourkes",
+        'phone': '+353-1-288-7102',
+        'website': 'http://jackorourkes.com',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 662938506,
+      'lat': 53.3016547,
+      'lon': -6.1776352,
+      'tags': {
+        'addr:city': 'Blackrock',
+        'addr:street': 'Main Street',
+        'amenity': 'pub',
+        'name': 'The Breffini',
+        'phone': '+353-1-288-8759',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 662970909,
+      'lat': 53.3010267,
+      'lon': -6.1772278,
+      'tags': {
+        'addr:city': 'Blackrock',
+        'addr:housenumber': '39',
+        'addr:street': 'Main Street',
+        'amenity': 'pub',
+        'diet:vegan': 'no',
+        'diet:vegetarian': 'no',
+        'name': 'Kelly and Coopers',
+        'opening_hours': 'Mo-Sa 12:00-22:00; Su 12:00-21:00',
+        'phone': '+353-1-210-1000',
+        'website': 'https://kellyandcoopers.ie/',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 677596888,
+      'lat': 53.3468848,
+      'lon': -6.2584276,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:postcode': 'D02 X984',
+        'addr:street': 'Burgh Quay',
+        'amenity': 'pub',
+        'name': 'River Bar',
+        'toilets:wheelchair': 'yes',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 689369512,
+      'lat': 53.356564,
+      'lon': -6.273879,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '18',
+        'addr:postcode': 'D07 A562',
+        'addr:street': 'Phibsborough Road',
+        'amenity': 'pub',
+        'email': 'info@mcgowans.ie',
+        'name': "McGowan's",
+        'phone': '+353 1 830 6606',
+        'smoking': 'isolated',
+        'website': 'https://www.mcgowans.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 698087515,
+      'lat': 53.3588257,
+      'lon': -6.2734242,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Phibsborough Road',
+        'amenity': 'pub',
+        'name': "Phibsborough House (Clarke's)"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 736892767,
+      'lat': 53.3821395,
+      'lon': -6.3672381,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Twelfth Lock'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 739778204,
+      'lat': 53.3358434,
+      'lon': -6.2635641,
+      'tags': {
+        'addr:housenumber': '21-25',
+        'addr:street': 'Harcourt Street',
+        'amenity': 'pub',
+        'contact:facebook': 'http://www.facebook.com/krystlenightclub',
+        'contact:instagram': 'https://instagram.com/KrystleDublin',
+        'contact:twitter': 'http://www.twitter.com/KrystleDublin',
+        'email': 'info@krystlenightclub.com',
+        'name': 'Krystle',
+        'opening_hours': 'Fr-Sa 23:00+',
+        'website': 'https://www.krystlenightclub.com/',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 768231201,
+      'lat': 53.3431091,
+      'lon': -6.2638694,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '15',
+        'addr:postcode': 'D02 E044',
+        'addr:street': 'Exchequer Street',
+        'amenity': 'pub',
+        'name': 'The Exchequer',
+        'smoking': 'no',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 768231204,
+      'lat': 53.3400902,
+      'lon': -6.2617022,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Sinnott's",
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 768231205,
+      'lat': 53.3412009,
+      'lon': -6.2642908,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '28-30',
+        'addr:postcode': 'D02 XY61',
+        'addr:street': 'Stephen Street Lower',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/pmacspub',
+        'name': 'P. Mac’s',
+        'phone': '+35314053653',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 768231917,
+      'lat': 53.336171,
+      'lon': -6.297985,
+      'tags': {
+        'addr:housenumber': '536-538',
+        'addr:street': 'South Circular Road',
+        'amenity': 'pub',
+        'name': 'The Circular',
+        'old_name': "McCauley's",
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 768231918,
+      'lat': 53.3434972,
+      'lon': -6.2905632,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '131',
+        'addr:postcode': 'D08 HH96',
+        'addr:street': 'James Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/guinansbar',
+        'name': 'Guinan’s',
+        'old_name': "The Tram;J.K. Stoutman's",
+        'phone': '+353870656802',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 768520263,
+      'lat': 53.3503544,
+      'lon': -6.2746953,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '119',
+        'addr:postcode': 'D07 E128',
+        'addr:street': 'Church Street Upper',
+        'amenity': 'pub',
+        'name': 'Bonobo',
+        'website': 'https://www.bonobodublin.com',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 775415430,
+      'lat': 53.3344059,
+      'lon': -6.2629302,
+      'tags': {
+        'addr:street': 'Harcourt Street',
+        'amenity': 'pub',
+        'name': 'D-Two',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 778699196,
+      'lat': 53.3306454,
+      'lon': -6.2642006,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '29',
+        'addr:street': 'Richmond Street South',
+        'amenity': 'pub',
+        'name': "J. O'Connell"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 791452176,
+      'lat': 53.3521556,
+      'lon': -6.279828,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '19',
+        'addr:postcode': 'D07 H583',
+        'addr:street': 'Grangegorman Lower',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/barbersbar/',
+        'name': 'Barbers Bar',
+        'phone': '+353 1 677 0540',
+        'website': 'https://www.thebarbers.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 811533577,
+      'lat': 53.3951322,
+      'lon': -6.1625014,
+      'tags': {
+        'amenity': 'pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 830659393,
+      'lat': 53.3467462,
+      'lon': -6.2924467,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Heuston Station',
+        'addr:postcode': 'D08 E2CV',
+        'addr:street': "Saint John's Road West",
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/TheGalwayHooker',
+        'cuisine': 'carvery',
+        'food': 'yes',
+        'name': 'The Galway Hooker',
+        'phone': '+35316703463',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 882292497,
+      'lat': 53.3322249,
+      'lon': -6.2927681,
+      'tags': {
+        'addr:city': 'Dublin',
+        'amenity': 'pub',
+        'name': 'The Barn House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 890854720,
+      'lat': 53.3523358,
+      'lon': -6.2495435,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '36',
+        'addr:postcode': 'D01 H6Y6',
+        'addr:street': 'Amiens Street',
+        'alt_name': 'Cleary’s',
+        'amenity': 'pub',
+        'name': 'J. & M. Cleary'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 909489471,
+      'lat': 53.3125386,
+      'lon': -6.2021347,
+      'tags': {
+        'addr:street': 'Merrion Road',
+        'amenity': 'pub',
+        'food': 'yes',
+        'name': "P.J. Branagan's Pub (closed)",
+        'opening_hours': 'Mo-Th 12:00-23:30; Sa 12:00-00:00; Su 12:30-23:00',
+        'website': 'http://www.taratowers.com/en/bar-dublin-4/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 911170200,
+      'lat': 53.3374409,
+      'lon': -6.2659032,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:street': 'Wexford Street',
+        'amenity': 'pub',
+        'name': 'The Landmark',
+        'note': 'formerly Shine, The Cornerstone, The Junction',
+        'old_name': 'Karma Stone Bar',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 932249376,
+      'lat': 53.3242854,
+      'lon': -6.2651445,
+      'tags': {
+        'addr:housenumber': '196',
+        'addr:postal_district': 'D06',
+        'addr:street': 'Rathmines Road Lower',
+        'amenity': 'pub',
+        'brewery': 'various',
+        'contact:facebook': 'https://www.facebook.com/thebowerydublin/',
+        'contact:instagram': 'https://www.instagram.com/bowerydublin/',
+        'contact:twitter': 'https://twitter.com/bowerydublin',
+        'email': 'Bookings@thebowery.ie',
+        'name': 'The Bowery',
+        'old_name': 'Toast',
+        'opening_hours': 'Mo-Th 17:00-24:00, Fr 15:00+, Sa-Su 12:30+',
+        'operator': 'Salty Dog',
+        'outdoor_seating': 'no',
+        'phone': '+353-85-7267078',
+        'smoking': 'outside',
+        'website': 'http://thebowery.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 937866728,
+      'lat': 53.3074073,
+      'lon': -6.3672745,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Kingswood Lodge'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 943350476,
+      'lat': 53.3304221,
+      'lon': -6.275613,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '29',
+        'addr:street': 'Clanbrassil Street Upper',
+        'amenity': 'pub',
+        'name': 'MVP',
+        'old_name': 'Francis McKenna'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 943350478,
+      'lat': 53.3300206,
+      'lon': -6.2752027,
+      'tags': {
+        'addr:housenumber': '34-35',
+        'addr:street': 'Clanbrassil Street Upper',
+        'amenity': 'pub',
+        'name': 'The Harold House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 957077887,
+      'lat': 53.3412484,
+      'lon': -6.2746135,
+      'tags': {
+        'access': 'no',
+        'addr:city': 'Dublin',
+        'addr:housenumber': '40',
+        'addr:postcode': 'D08 W208',
+        'addr:street': 'Francis Street',
+        'amenity': 'pub',
+        'name': 'The Jug'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 976646849,
+      'lat': 53.3429336,
+      'lon': -6.2792108,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '110-111',
+        'addr:postcode': 'D08 C2W7',
+        'addr:street': 'Thomas Street',
+        'amenity': 'pub',
+        'name': 'The Clock',
+        'phone': '+35316775563',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 988809177,
+      'lat': 53.3195923,
+      'lon': -6.3131127,
+      'tags': {
+        'addr:housenumber': '62a-64',
+        'addr:street': "Saint Agnes' Park",
+        'amenity': 'pub',
+        'name': "Frehill's Tavern",
+        'outdoor_seating': 'no',
+        'smoking': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1030106427,
+      'lat': 53.3218191,
+      'lon': -6.2656355,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Rathmines Road Lower',
+        'amenity': 'pub',
+        'name': 'Copán',
+        'old_name': 'The Leinster House',
+        'smoking': 'outside',
+        'year_built': '1843'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1260538148,
+      'lat': 53.3429392,
+      'lon': -6.291006,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '27',
+        'addr:postcode': 'D08 EP89',
+        'addr:street': 'James Street',
+        'alt_name': 'Willow Murphy’s',
+        'amenity': 'pub',
+        'name': 'The Malt',
+        'old_name': 'The Malt House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1300613610,
+      'lat': 53.343795,
+      'lon': -6.2639138,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Dame Tavern',
+        'survey:date': '2018-08-12',
+        'toilets:wheelchair': 'no',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1320207694,
+      'lat': 53.3235135,
+      'lon': -6.3792415,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Boomers'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1326700611,
+      'lat': 53.3470952,
+      'lon': -6.2836885,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '32',
+        'addr:street': 'Ellis Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/TheMissionDublin/',
+        'disused': 'no',
+        'internet_access': 'wlan',
+        'name': 'The Mission',
+        'phone': '+353 1 555 8820'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1326700619,
+      'lat': 53.3464035,
+      'lon': -6.2843718,
+      'tags': {
+        'amenity': 'pub',
+        'disused': 'yes',
+        'name': 'Noel Leonards (Closed)'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1332272327,
+      'lat': 53.3480466,
+      'lon': -6.2900462,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Millenium',
+        'smoking': 'outside'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1349656251,
+      'lat': 53.3573745,
+      'lon': -6.2637676,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Temple'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1373919801,
+      'lat': 53.3432707,
+      'lon': -6.281063,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '131',
+        'addr:postcode': 'D08 P8H3',
+        'addr:street': 'Thomas Street',
+        'amenity': 'pub',
+        'contact:instagram': '@themagnetdublin',
+        'name': 'The Magnet',
+        'old_name': 'Agnes Browne’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1373977813,
+      'lat': 53.3406636,
+      'lon': -6.27815,
+      'tags': {
+        'addr:housenumber': '61-63',
+        'addr:street': 'Meath Street',
+        'amenity': 'pub',
+        'name': 'The Fountain'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1373979474,
+      'lat': 53.3397428,
+      'lon': -6.2780884,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'The Coombe',
+        'amenity': 'pub',
+        'name': 'The Lamplighter',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1374466529,
+      'lat': 53.3415634,
+      'lon': -6.2748857,
+      'tags': {
+        'addr:housenumber': '33',
+        'addr:street': 'Francis Street',
+        'amenity': 'pub',
+        'name': 'The Liberty Belle',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1403120910,
+      'lat': 53.3427402,
+      'lon': -6.2772127,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '65',
+        'addr:street': 'Thomas Street',
+        'amenity': 'pub',
+        'name': 'Tom Kennedy’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1404763943,
+      'lat': 53.341684,
+      'lon': -6.278673,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '80-81',
+        'addr:street': 'Meath Street',
+        'amenity': 'pub',
+        'name': 'The Lark Inn',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1404772647,
+      'lat': 53.34013,
+      'lon': -6.280709,
+      'tags': {
+        'addr:housenumber': '62',
+        'addr:street': 'Pimlico',
+        'amenity': 'pub',
+        'name': 'The Pimlico Tavern'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1416582578,
+      'lat': 53.3402486,
+      'lon': -6.3168219,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '139',
+        'addr:postcode': 'D08 V882',
+        'addr:street': 'Emmet Road',
+        'addr:suburb': 'Inchicore',
+        'alt_name': 'Richmond House',
+        'amenity': 'pub',
+        'name': 'McDowell’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1418302667,
+      'lat': 53.3054689,
+      'lon': -6.197606,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Gleesons of Booterstown'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1423546555,
+      'lat': 53.3738004,
+      'lon': -6.2689642,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Glasnevin Hill',
+        'amenity': 'pub',
+        'name': 'Tolka House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1423559526,
+      'lat': 53.3443064,
+      'lon': -6.263706,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Citi Bar'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1423559556,
+      'lat': 53.3450328,
+      'lon': -6.2659898,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '35-37',
+        'addr:postcode': 'D02 Y891',
+        'addr:street': 'Essex Street East',
+        'amenity': 'pub',
+        'cuisine': 'burger;sandwich',
+        'email': 'bookings@badbobs.ie',
+        'food': 'yes',
+        'internet_access': 'wlan',
+        'name': 'Bad Bob’s',
+        'name:en': 'Bad Bob’s',
+        'opening_hours': 'Mo-Su,PH 00:00-02:00,10:00-24:00',
+        'phone': '+35316778860',
+        'website': 'https://www.badbobs.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1425374427,
+      'lat': 53.3091194,
+      'lon': -6.305349,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Two Sisters'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1425999505,
+      'lat': 53.3019062,
+      'lon': -6.1779873,
+      'tags': {
+        'addr:city': 'Blackrock',
+        'addr:street': 'Main Street',
+        'amenity': 'pub',
+        'name': 'Wicked Wolf',
+        'opening_hours': 'Mo-Th 10:30-23:30; Fr-Sa 10:30-01:30; Su 12:00-23:00',
+        'phone': '+353-1-283-6424',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1426048610,
+      'lat': 53.3303503,
+      'lon': -6.2641273,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '33',
+        'addr:street': 'Richmond Street South',
+        'amenity': 'pub',
+        'name': 'The Portobello Bar',
+        'smoking': 'outside'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1426051344,
+      'lat': 53.326641,
+      'lon': -6.2583564,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Hill (Closed)'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1426100409,
+      'lat': 53.3369065,
+      'lon': -6.2874547,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Morrissey's",
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1426100412,
+      'lat': 53.3459874,
+      'lon': -6.2801673,
+      'tags': {
+        'addr:housenumber': '41-43',
+        'addr:street': "Usher's Quay",
+        'amenity': 'pub',
+        'cuisine': 'czech',
+        'name': 'Pifko Bar',
+        'opening_hours': 'Mo-Th 11:00-23:30; Fr 11:00-00:30; Sa 12:00-00:30; Su 12:00-23:00',
+        'phone': '+353 1 515 2087',
+        'website': 'http://www.pifkobar.com'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1431043154,
+      'lat': 53.3454637,
+      'lon': -6.2651253,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '18',
+        'addr:postcode': 'D02 YK79',
+        'addr:street': 'Essex Street East',
+        'amenity': 'pub',
+        'name': 'Fitzsimon’s',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1432780730,
+      'lat': 53.3882621,
+      'lon': -6.1834132,
+      'tags': {
+        'addr:city': 'Raheny',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Edenmore Shopping Centre',
+        'addr:street': 'Edenmore Avenue',
+        'amenity': 'pub',
+        'name': 'Edenmore House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1432780731,
+      'lat': 53.3888986,
+      'lon': -6.1809861,
+      'tags': {
+        'addr:city': 'Raheny',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Edenmore Shopping Centre',
+        'addr:postal_district': 'D05',
+        'addr:street': 'Edenmore Avenue',
+        'amenity': 'pub',
+        'name': 'The Concorde'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1484713985,
+      'lat': 53.382084,
+      'lon': -6.2767253,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:housenumber': '68',
+        'addr:street': 'Ballygall Road East',
+        'amenity': 'pub',
+        'name': 'Quarry House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1484733482,
+      'lat': 53.3897043,
+      'lon': -6.2712214,
+      'tags': {
+        'addr:street': 'Glasnevin Avenue',
+        'amenity': 'pub',
+        'name': 'Autobahn Roadhouse'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1494148993,
+      'lat': 53.3453862,
+      'lon': -6.2664774,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '10',
+        'addr:street': 'Wellington Quay',
+        'amenity': 'pub',
+        'email': 'info@theworkmansclub.com',
+        'name': "The Workman's Club",
+        'toilets:wheelchair': 'no',
+        'website': 'http://www.theworkmansclub.com/',
+        'wheelchair': 'limited',
+        'wikidata': 'Q16901552',
+        'wikipedia': 'en:The Workmans Club'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1496722632,
+      'lat': 53.3853244,
+      'lon': -6.2656088,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Ballymun Road',
+        'amenity': 'pub',
+        'food': 'yes',
+        'name': "The Slipper (Matt Weldon's)",
+        'old_name': 'Slipper',
+        'opening_hours': 'Mo-Sa 11:30-23:30, Su 12:30-23:00',
+        'smoking': 'isolated',
+        'source': 'survey'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1496775243,
+      'lat': 53.3850696,
+      'lon': -6.2589215,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Nubar',
+        'opening_hours': 'Mo-Fr 08:00-24:00',
+        'source': 'survey'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1496777115,
+      'lat': 53.3884621,
+      'lon': -6.2459813,
+      'tags': {
+        'addr:housenumber': '243',
+        'addr:street': 'Swords Road',
+        'amenity': 'pub',
+        'name': 'The Comet',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1500501221,
+      'lat': 53.3159336,
+      'lon': -6.3173081,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Rory O'Connor's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1500501224,
+      'lat': 53.3161733,
+      'lon': -6.3173858,
+      'tags': {
+        'alt_name': 'The Sub',
+        'amenity': 'pub',
+        'food': 'yes',
+        'name': 'The Submarine'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1508855041,
+      'lat': 53.3628264,
+      'lon': -6.2401557,
+      'tags': {
+        'amenity': 'pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1508859465,
+      'lat': 53.362621,
+      'lon': -6.242264,
+      'tags': {
+        'addr:housenumber': '283-285',
+        'amenity': 'pub',
+        'name': "Meagher's",
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1509769787,
+      'lat': 53.3629792,
+      'lon': -6.2287076,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Barcode'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1517611787,
+      'lat': 53.3596909,
+      'lon': -6.2569405,
+      'tags': {
+        'addr:street': "Cambell's Row",
+        'amenity': 'pub',
+        'name': 'The Hideout House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1521409481,
+      'lat': 53.3404859,
+      'lon': -6.2868779,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Brewery Bar'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1521570233,
+      'lat': 53.3572808,
+      'lon': -6.2269266,
+      'tags': {
+        'addr:street': 'EastPoint Business Park',
+        'amenity': 'pub',
+        'name': 'EpiCenter'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1521601306,
+      'lat': 53.3594872,
+      'lon': -6.1896797,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Pebble Beach'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1521660943,
+      'lat': 53.3888556,
+      'lon': -6.2008612,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Kyles'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1526077721,
+      'lat': 53.3964581,
+      'lon': -6.2149245,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Dusk Nightclub',
+        'name:en': 'Dusk Nightclub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1529996763,
+      'lat': 53.3867314,
+      'lon': -6.2115192,
+      'tags': {
+        'alt_name': 'A1',
+        'amenity': 'pub',
+        'name': 'Ardlea Inn'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1529996838,
+      'lat': 53.383917,
+      'lon': -6.2068448,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Roundabout'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1530024649,
+      'lat': 53.3802882,
+      'lon': -6.2100226,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Goblet',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1593209605,
+      'lat': 53.3363545,
+      'lon': -6.2728363,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '35',
+        'addr:postcode': 'D08 V972',
+        'addr:street': 'New Street South',
+        'amenity': 'pub',
+        'name': 'Kavanagh’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1615384981,
+      'lat': 53.395102,
+      'lon': -6.3111759,
+      'tags': {
+        'addr:street': 'Barry Road',
+        'amenity': 'pub',
+        'name': 'An Cappagh Nua'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1669958710,
+      'lat': 53.3233599,
+      'lon': -6.2800896,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:postal_district': 'D6W',
+        'addr:street': "Harold's Cross Road",
+        'amenity': 'pub',
+        'name': "McGowan's of Harold's Cross",
+        'phone': '+353 1 4978618',
+        'website': 'http://www.mcgowansofharoldscross.com/',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1676033691,
+      'lat': 53.3662372,
+      'lon': -6.2897667,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Fassaugh Avenue',
+        'amenity': 'pub',
+        'name': "Matt's of Cabra (Closed)",
+        'old_name': "Matt Whelan's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1684858495,
+      'lat': 53.3552202,
+      'lon': -6.2604108,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Stoney's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 1712118211,
+      'lat': 53.3508625,
+      'lon': -6.2542696,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:street': 'Talbot Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/OSheasoftalbotstreet',
+        'email': 'osheashotel@eircom.net',
+        'name': 'O’Shea’s',
+        'phone': '+353 1 836 5670',
+        'smoking': 'isolated',
+        'website': 'https://osheasoftalbotstreet.com'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2004412420,
+      'lat': 53.3174091,
+      'lon': -6.3323303,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Kestrel House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2004412421,
+      'lat': 53.3893347,
+      'lon': -6.1236878,
+      'tags': {
+        'addr:housenumber': '36',
+        'addr:street': 'Baldoyle Road',
+        'amenity': 'pub',
+        'name': 'The Elphin',
+        'website': 'http://elphin.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2004412428,
+      'lat': 53.3238179,
+      'lon': -6.328425,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Halfway House',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2004488756,
+      'lat': 53.3358378,
+      'lon': -6.3120274,
+      'tags': {
+        'addr:street': 'Davitt Road',
+        'amenity': 'pub',
+        'name': 'Marble Arch'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2004491253,
+      'lat': 53.3206892,
+      'lon': -6.3162604,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Saint Agnes Road',
+        'amenity': 'pub',
+        'name': 'The Hub (The Shaw Arms)'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2004657419,
+      'lat': 53.345711,
+      'lon': -6.2721255,
+      'tags': {
+        'addr:housenumber': '1',
+        'addr:street': 'Chancery Place',
+        'amenity': 'pub',
+        'name': 'The Legal Eagle'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2065157408,
+      'lat': 53.3498005,
+      'lon': -6.2299289,
+      'tags': {
+        'addr:housename': 'Liffey Trust Building',
+        'addr:housenumber': '117-126',
+        'addr:street': 'Upper Sheriff Street',
+        'amenity': 'pub',
+        'name': 'The Green Room',
+        'website': 'https://www.thegreenroombar.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2065167226,
+      'lat': 53.3548879,
+      'lon': -6.2291889,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Seabank House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2065197334,
+      'lat': 53.3206435,
+      'lon': -6.2921726,
+      'tags': {
+        'addr:housenumber': '35-37',
+        'addr:postal_district': 'D12',
+        'addr:street': 'Sundrive Road',
+        'amenity': 'pub',
+        'name': 'The Stone Boat'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2065207024,
+      'lat': 53.3141966,
+      'lon': -6.2964378,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '326',
+        'addr:street': 'Kimmage Road Lower',
+        'amenity': 'pub',
+        'name': 'KCR House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2066250086,
+      'lat': 53.3273937,
+      'lon': -6.3060022,
+      'tags': {
+        'addr:housenumber': '127',
+        'addr:street': 'Old County Road',
+        'amenity': 'pub',
+        'name': 'The Old County'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2068246787,
+      'lat': 53.340843,
+      'lon': -6.244782,
+      'tags': {
+        'addr:housenumber': '45',
+        'addr:street': 'Hogan Place',
+        'amenity': 'pub',
+        'email': 'info@the-square-ball.com',
+        'name': 'The Square Ball',
+        'outdoor_seating': 'no',
+        'phone': '+353 1 662 4473',
+        'website': 'https://the-square-ball.com/',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2071381884,
+      'lat': 53.3550033,
+      'lon': -6.2460175,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '172',
+        'addr:postcode': 'D01 HN36',
+        'addr:street': 'North Strand Road',
+        'amenity': 'pub',
+        'name': 'The Strand House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2071381885,
+      'lat': 53.3525997,
+      'lon': -6.249261,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '45',
+        'addr:postcode': 'D01 WV02',
+        'addr:street': 'Amiens Street',
+        'amenity': 'pub',
+        'name': 'Mullet’s'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2080832424,
+      'lat': 53.3859746,
+      'lon': -6.1555082,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Foxhound Inn'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2131267850,
+      'lat': 53.354343,
+      'lon': -6.2720844,
+      'tags': {
+        'addr:street': 'Dominick Street Upper',
+        'amenity': 'pub',
+        'brewery': 'Guinness;Beamish',
+        'name': "Cumiskey's",
+        'opening_hours': 'Mo-Sa 12:00-23:30; Su 12:30-23:00',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2131267852,
+      'lat': 53.3561417,
+      'lon': -6.2678848,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Berkeley'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2175861132,
+      'lat': 53.3454052,
+      'lon': -6.2663779,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '11',
+        'addr:street': 'Wellington Quay',
+        'amenity': 'pub',
+        'name': 'Bison Bar',
+        'toilets:wheelchair': 'yes',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2349855098,
+      'lat': 53.3439563,
+      'lon': -6.2699696,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Harding Hotel',
+        'addr:postcode': 'D08 PD8W',
+        'addr:street': 'Fishamble Street',
+        'amenity': 'pub',
+        'name': 'Darkey Kelly’s',
+        'toilets:wheelchair': 'yes',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2372299960,
+      'lat': 53.352258,
+      'lon': -6.269085,
+      'tags': {
+        'amenity': 'pub',
+        'name': "The King's Inn"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2372305579,
+      'lat': 53.3553114,
+      'lon': -6.2661045,
+      'tags': {
+        'addr:street': 'Dorset Street Upper',
+        'amenity': 'pub',
+        'brewery': 'Guinness;various',
+        'name': 'The Long Island Bar',
+        'outdoor_seating': 'no',
+        'smoking': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2372306728,
+      'lat': 53.355503,
+      'lon': -6.2659317,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '100',
+        'addr:street': 'Dorset Street Upper',
+        'amenity': 'pub',
+        'brewery': 'carlberg;various',
+        'name': "Glynn's",
+        'outdoor_seating': 'no',
+        'smoking': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2372309923,
+      'lat': 53.3556298,
+      'lon': -6.2658025,
+      'tags': {
+        'addr:housenumber': '99',
+        'addr:street': 'Dorset Street Lower',
+        'amenity': 'pub',
+        'brewery': "smithwick's;various",
+        'name': "Delahunty's",
+        'outdoor_seating': 'no',
+        'smoking': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2372312459,
+      'lat': 53.3569746,
+      'lon': -6.2645861,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Dorset Street Upper',
+        'alt_name': "Hennessy's",
+        'amenity': 'pub',
+        'name': 'The Findlater'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2386542318,
+      'lat': 53.3442729,
+      'lon': -6.265415,
+      'tags': {
+        'addr:street': 'Dame Street',
+        'amenity': 'pub',
+        'name': "Peadar Kearney's Pub"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2419698552,
+      'lat': 53.345832,
+      'lon': -6.26051,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Buskers Bar',
+        'note': 'Free WI-FI',
+        'smoking': 'outside',
+        'toilets:wheelchair': 'yes',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2435852904,
+      'lat': 53.3017544,
+      'lon': -6.1781923,
+      'tags': {
+        'addr:city': 'Blackrock',
+        'addr:housenumber': '3',
+        'addr:street': 'Main Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/conways.blackrock',
+        'food': 'Mo 12:00-15:00; Tu-We Off; Th-Sa 12:00-20:00; Su 12:30-18:00',
+        'name': 'Conways',
+        'opening_hours': 'Mo 12:00-23:30; Tu-We 15:30-23:30; Th 12:00-23:30; Fr-Sa 12:00-00:30; Su 12:30-23:00',
+        'phone': '+353-1-278-4934',
+        'website': 'http://www.conwaysblackrock.com/',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2522889960,
+      'lat': 53.343539,
+      'lon': -6.289078,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '117',
+        'addr:street': 'James Street',
+        'amenity': 'pub',
+        'name': 'McCann’s',
+        'phone': '+353 1 679 0526',
+        'website': 'https://www.mccannsbar.com/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2681367476,
+      'lat': 53.3421258,
+      'lon': -6.2548307,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Blarney Inn',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2689455361,
+      'lat': 53.3430251,
+      'lon': -6.3380349,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Laurence Lounge'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2697063080,
+      'lat': 53.3423356,
+      'lon': -6.3571492,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Downey's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2859655009,
+      'lat': 53.3438425,
+      'lon': -6.2607432,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '2',
+        'addr:postcode': 'D02 KX03',
+        'addr:street': 'Suffolk Street',
+        'alt_name': 'M.J. O’Neill',
+        'amenity': 'pub',
+        'name': 'O’Neill’s',
+        'smoking': 'isolated',
+        'website': 'http://www.oneillspubdublin.com/',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2860454401,
+      'lat': 53.3511395,
+      'lon': -6.2513336,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '59',
+        'addr:postcode': 'D01 K298',
+        'addr:street': 'Talbot Street',
+        'amenity': 'pub',
+        'contact:facebook': 'http://www.facebook.com/molloysdublin',
+        'contact:instagram': '@molloysdublin',
+        'contact:twitter': '@MolloysDublin',
+        'email': 'info@molloysdublin.com',
+        'food': 'yes',
+        'name': 'Molloy’s',
+        'outdoor_seating': 'no',
+        'phone': '+353 1 547 8873',
+        'smoking': 'isolated',
+        'website': 'https://www.molloysdublin.com/',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2885369320,
+      'lat': 53.3218142,
+      'lon': -6.2664357,
+      'tags': {
+        'addr:housenumber': '2',
+        'addr:street': 'Rathgar Road',
+        'amenity': 'pub',
+        'name': "Grace's",
+        'smoking': 'outside'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2886231109,
+      'lat': 53.3259919,
+      'lon': -6.2652224,
+      'tags': {
+        'addr:housenumber': '121',
+        'addr:street': 'Rathmines Road Lower',
+        'amenity': 'pub',
+        'name': 'Tramco Brewery (closed)',
+        'opening_hours': 'Closed',
+        'website': 'https://www.facebook.com/tramcobrewery'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2893532903,
+      'lat': 53.3416481,
+      'lon': -6.3213608,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Cleary's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 2995285120,
+      'lat': 53.3200915,
+      'lon': -6.3161146,
+      'tags': {
+        'addr:postal_district': 'D12',
+        'addr:street': 'Saint Agnes Road',
+        'amenity': 'pub',
+        'name': 'The Horse Shoe'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3005899379,
+      'lat': 53.3237548,
+      'lon': -6.278506,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '159-163',
+        'addr:street': "Harold's Cross Road",
+        'amenity': 'pub',
+        'name': "Peggy Kelly's",
+        'phone': '+353 1 4978935',
+        'website': 'http://www.peggykellys.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3028480445,
+      'lat': 53.3216718,
+      'lon': -6.2352574,
+      'tags': {
+        'addr:housenumber': '48-48a',
+        'addr:street': 'Donnybrook Road',
+        'amenity': 'pub',
+        'name': 'Arthur Maynes',
+        'outdoor_seating': 'yes',
+        'smoking': 'outside'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3040092718,
+      'lat': 53.3211247,
+      'lon': -6.2654634,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '12-14',
+        'addr:street': 'Rathmines Road Upper',
+        'amenity': 'pub',
+        'name': "Rody Boland's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3040139014,
+      'lat': 53.3207806,
+      'lon': -6.2651459,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housenumber': '26-32',
+        'addr:street': 'Rathmines Road Upper',
+        'amenity': 'pub',
+        'name': "Mother Reilly's Bar & Restaurant",
+        'outdoor_seating': 'yes',
+        'phone': '+353-1-4975486',
+        'smoking': 'outside',
+        'website': 'https://uppercrosshousehotel.com/bar/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3124957096,
+      'lat': 53.3424332,
+      'lon': -6.2944638,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Kennys Lounge'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3158435067,
+      'lat': 53.3563652,
+      'lon': -6.2507754,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Summerhill',
+        'amenity': 'pub',
+        'name': "Cú Chulainn's at Croke Park"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3465548931,
+      'lat': 53.3457953,
+      'lon': -6.2707796,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'Ormond Quay Upper',
+        'amenity': 'pub',
+        'email': 'fibbermagees.ie@hotmail.com',
+        'name': 'Fibbers Rock Bar',
+        'smoking': 'outside',
+        'website': 'http://www.fibbermagees.ie/',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3470507586,
+      'lat': 53.344077,
+      'lon': -6.2634646,
+      'tags': {
+        'addr:housenumber': '32',
+        'addr:street': 'Dame Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/mulliganandhaines/',
+        'contact:instagram': 'https://www.instagram.com/mulliganandhaines/',
+        'contact:twitter': 'https://twitter.com/MullandHaines',
+        'email': 'bookings@mulliganandhaines.ie',
+        'food': 'yes',
+        'name': 'Mulligan and Haines',
+        'old_name': "Sweeney's",
+        'outdoor_seating': 'no',
+        'phone': '+353 1 882-4355',
+        'website': 'https://www.mulliganandhaines.ie/',
+        'wheelchair': 'limited'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3567190069,
+      'lat': 53.3351088,
+      'lon': -6.2654328,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '72',
+        'addr:street': 'Camden Street Lower',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/CamdenExchange',
+        'email': 'info@camdenexchange.ie',
+        'name': 'Camden Exchange',
+        'opening_hours': 'Mo-Th 16:00-24:00; Fr-Su 12:00-24:00',
+        'phone': '+353 1 5599028',
+        'smoking': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3677080040,
+      'lat': 53.3507552,
+      'lon': -6.2448064,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:housename': 'Noctors',
+        'addr:street': 'Sheriff Street Lower',
+        'amenity': 'pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3718522031,
+      'lat': 53.3837011,
+      'lon': -6.38172,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Roselawn Inn',
+        'opening_hours': 'Mo-Th 16:00-23:00; Fr-Su 12:00-23:00'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 3978866951,
+      'lat': 53.3549974,
+      'lon': -6.2572309,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '30',
+        'addr:postcode': 'D01 PK61',
+        'addr:street': 'Gardiner Street Middle',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/Hill-16-Pub-102711119773287',
+        'name': 'Hill 16'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 4337347089,
+      'lat': 53.3359091,
+      'lon': -6.2635598,
+      'tags': {
+        'addr:housenumber': '21-25',
+        'addr:street': 'Harcourt Street',
+        'amenity': 'pub',
+        'name': "Dicey's Garden",
+        'website': 'http://www.russellcourthotel.ie/diceys-garden/',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 4337941791,
+      'lat': 53.3341764,
+      'lon': -6.254773,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Leggs pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 4770224022,
+      'lat': 53.3513605,
+      'lon': -6.2513919,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Robert Reade Bar and Cafe',
+        'name:en': 'Robert Reade Bar and Cafe'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 4799036110,
+      'lat': 53.3292976,
+      'lon': -6.2319611,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '13',
+        'addr:postcode': 'D04 C7K6',
+        'addr:street': 'Ballsbridge Terrace',
+        'addr:suburb': 'Ballsbridge',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/thebridge1859',
+        'contact:instagram': '@thebridge1859',
+        'contact:twitter': '@TheBridge1859',
+        'email': 'hello@thebridge1859.ie',
+        'food': 'yes',
+        'name': 'The Bridge 1859',
+        'phone': '+353-1-660-2804',
+        'website': 'https://www.thebridge1859.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 4913827407,
+      'lat': 53.3164631,
+      'lon': -6.3327284,
+      'tags': {
+        'addr:housenumber': '1',
+        'addr:street': 'Walkinstown Cross',
+        'amenity': 'pub',
+        'name': 'Cherry Tree Pub and Restaurant',
+        'opening_hours': 'Mo-Th 10:00-23:30; Fr,Sa 10:30-00:30; Su 12:30-23:00',
+        'phone': '+353 1 450 3983',
+        'website': 'http://www.cherrytree.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 4952552579,
+      'lat': 53.3591428,
+      'lon': -6.3587854,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Angler's Rest"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5044959521,
+      'lat': 53.3432314,
+      'lon': -6.2869606,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'Open Gate Brewery',
+        'name:en': 'Open Gate Brewery',
+        'product': 'craft beer',
+        'website': 'https://www.guinnessopengate.com',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5073432440,
+      'lat': 53.3491172,
+      'lon': -6.2480644,
+      'tags': {
+        'addr:housename': 'Vault C, The chq Building',
+        'amenity': 'pub',
+        'craft': 'brewery',
+        'microbrewery': 'yes',
+        'name': 'Urban Brewing',
+        'outdoor_seating': 'yes',
+        'phone': '+353 1 568 5989',
+        'product': 'craft beer',
+        'website': 'https://www.urbanbrewing.ie/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5166639421,
+      'lat': 53.3382919,
+      'lon': -6.2545268,
+      'tags': {
+        'addr:housenumber': '13',
+        'addr:street': 'Merrion Row',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/1326445167462877',
+        'contact:instagram': 'https://www.instagram.com/chambersbarmerrionrow',
+        'contact:twitter': 'https://twitter.com/ChambersBar',
+        'email': 'info@chambersbar.ie',
+        'name': 'Chambers',
+        'phone': '+353-1-6602367',
+        'website': 'https://www.chamberspub.ie/',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5301569915,
+      'lat': 53.3528545,
+      'lon': -6.2605121,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '80-81',
+        'addr:postcode': 'D01 CK74',
+        'addr:street': 'Parnell Street',
+        'addr:suburb': 'Rotunda',
+        'alt_name': "Fibber's Rock and Roll Bar",
+        'amenity': 'pub',
+        'name': 'Fibber Magee’s',
+        'short_name': 'Fibber’s',
+        'website': 'http://www.fibbermagees.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5301581770,
+      'lat': 53.3532009,
+      'lon': -6.2597243,
+      'tags': {
+        'addr:housenumber': '93',
+        'addr:street': 'Parnell Street',
+        'amenity': 'pub',
+        'name': 'Vacant'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5371962431,
+      'lat': 53.353584,
+      'lon': -6.2696732,
+      'tags': {
+        'addr:housenumber': '15',
+        'addr:street': 'Dominick Street Upper',
+        'amenity': 'pub',
+        'brewery': 'various',
+        'name': "Thomas O'Brennan's bar",
+        'phone': '+353 1 830 7934',
+        'smoking': 'outside',
+        'website': 'https://www.facebook.com/tobrennans/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5373194431,
+      'lat': 53.3516917,
+      'lon': -6.2501036,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:street': 'Amiens Street',
+        'amenity': 'pub',
+        'email': 'info@mcgettiganscookhousedublin.ie',
+        'name': 'McGettigans Cookhouse & Bar',
+        'outdoor_seating': 'no',
+        'phone': '+353 1 855 9638',
+        'smoking': 'no',
+        'website': 'http://www.mcgettiganscookhouse.ie/dublin/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5413409337,
+      'lat': 53.3774856,
+      'lon': -6.246632,
+      'tags': {
+        'addr:housename': 'Bonnington Hotel',
+        'addr:street': 'Swords Road',
+        'amenity': 'pub',
+        'email': 'contact@mcgettigans.com',
+        'name': 'McGettigan’s',
+        'phone': '+353-1-8522285',
+        'website': 'http://www.mcgettigans.com/'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5479408852,
+      'lat': 53.3223315,
+      'lon': -6.236627,
+      'tags': {
+        'addr:housenumber': '2',
+        'addr:street': 'Donnybrook Road',
+        'amenity': 'pub',
+        'name': 'Ciss Maddens'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5787220032,
+      'lat': 53.342004,
+      'lon': -6.2866892,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Alfred's"
+      }
+    },
+    {
+      'type': 'node',
+      'id': 5866396179,
+      'lat': 53.3389208,
+      'lon': -6.2722998,
+      'tags': {
+        'addr:housenumber': '50',
+        'addr:street': 'Patrick Street',
+        'amenity': 'pub',
+        'name': 'The Fourth Corner',
+        'outdoor_seating': 'no',
+        'website': 'http://fourthcorner.ie/',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6245890989,
+      'lat': 53.3428463,
+      'lon': -6.2604188,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '8',
+        'addr:postcode': 'D02 AX90',
+        'addr:street': 'Wicklow Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/marysbardublin',
+        'contact:instagram': '@marysbardublin',
+        'contact:twitter': '@MarysBarDublin',
+        'email': 'info@marysbar.ie',
+        'name': 'Mary’s Bar & Hardware Shop',
+        'phone': '+35316708629',
+        'website': 'https://marysbar.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6302603646,
+      'lat': 53.3202127,
+      'lon': -6.3167434,
+      'tags': {
+        'amenity': 'pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6486765785,
+      'lat': 53.3382103,
+      'lon': -6.2542752,
+      'tags': {
+        'amenity': 'pub',
+        'name': "Napper Tandy's Dublin",
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6782589728,
+      'lat': 53.339626,
+      'lon': -6.2612845,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Well',
+        'wheelchair': 'yes'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6795621382,
+      'lat': 53.3852484,
+      'lon': -6.3124659,
+      'tags': {
+        'addr:street': 'Cardiffsbridge Road',
+        'amenity': 'pub'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6969068085,
+      'lat': 53.3481815,
+      'lon': -6.2932243,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '25',
+        'addr:postcode': 'D08 XR94',
+        'addr:street': 'Parkgate Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/P.Duggans',
+        'name': 'P. Duggan’s',
+        'phone': '+35316778448'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 6985146685,
+      'lat': 53.342118,
+      'lon': -6.254771,
+      'tags': {
+        'addr:housenumber': '2',
+        'addr:street': 'Nassau Street',
+        'amenity': 'pub',
+        'name': 'J.P. Mooney’s',
+        'wheelchair': 'no'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 7017217477,
+      'lat': 53.3534835,
+      'lon': -6.2592195,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '98',
+        'addr:postcode': 'D01 T2T3',
+        'addr:street': 'Parnell Street',
+        'addr:suburb': 'Rotunda',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/TheBigRomanceBar',
+        'contact:instagram': '@thebigromance',
+        'contact:twitter': '@BigRomanceBar',
+        'email': 'info@thebigromance.ie',
+        'name': 'The Big Romance',
+        'phone': '+35315595997',
+        'website': 'https://www.thebigromance.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 8000774689,
+      'lat': 53.3442892,
+      'lon': -6.2664171,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '75',
+        'addr:postcode': 'D02 DX00',
+        'addr:street': 'Dame Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/UnderDog-Dublin-812139445602353',
+        'contact:instagram': '@underdogdub',
+        'contact:twitter': '@UnderDogDub',
+        'email': 'underdogdublin@gmail.com',
+        'layer': '-1',
+        'name': 'Underdog',
+        'note': 'Under Brogans Bar per note #1336216',
+        'phone': '+353838903502'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 8860012864,
+      'lat': 53.3876685,
+      'lon': -6.3009775,
+      'tags': {
+        'amenity': 'pub',
+        'fixme': 'maybe no longer trading?'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9122380611,
+      'lat': 53.3471813,
+      'lon': -6.2325515,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:street': 'North Wall Quay',
+        'amenity': 'pub',
+        'name': 'The Bottle Bar',
+        'photo': 'https://westnordost.de/p/42410.jpg'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9202222409,
+      'lat': 53.3598545,
+      'lon': -6.2608902,
+      'tags': {
+        'amenity': 'pub',
+        'name': 'The Big Tree'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9264108045,
+      'lat': 53.3464079,
+      'lon': -6.2453788,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '4-5',
+        'addr:postcode': 'D02 Y773',
+        'addr:street': "Sir John Rogerson's Quay",
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/dockerspub.ie',
+        'contact:instagram': '@dockerspub',
+        'contact:twitter': '@dockerspub',
+        'email': 'bookings@dockerspub.ie',
+        'name': 'Dockers',
+        'phone': '+353861034089',
+        'website': 'https://www.dockerspub.ie'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9322108900,
+      'lat': 53.3359672,
+      'lon': -6.3240536,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:county': 'Dublin',
+        'addr:housename': 'Goldenbridge Industrial Estate',
+        'addr:housenumber': 'Unit 5',
+        'addr:postcode': 'D08 HF68',
+        'addr:street': 'Tyrconnell Road',
+        'addr:suburb': 'Inchicore',
+        'amenity': 'pub',
+        'brewery': 'rascals',
+        'contact:facebook': 'rascalsbrewing',
+        'contact:instagram': '@rascalsbrewing',
+        'contact:twitter': '@rascalsbrewing',
+        'name': 'Rascals HQ',
+        'website': 'https://rascalsbrewing.com'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9334710259,
+      'lat': 53.3432175,
+      'lon': -6.2870532,
+      'tags': {
+        'addr:city': 'Dublin',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '53',
+        'addr:postcode': 'D08 X20N',
+        'addr:street': 'James Street',
+        'amenity': 'pub',
+        'name': 'Open Gate Taproom'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9352848206,
+      'lat': 53.378369,
+      'lon': -6.1791168,
+      'tags': {
+        'addr:city': 'Raheny',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:postcode': 'D05 FW31',
+        'addr:street': 'All Saints Drive',
+        'amenity': 'pub',
+        'contact:twitter': '@RahenyUnitedBar',
+        'name': 'Raheny United Clubhouse Bar'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9419310806,
+      'lat': 53.3423642,
+      'lon': -6.2276601,
+      'tags': {
+        'addr:housenumber': '16-20',
+        'addr:street': 'Thorncastle Street',
+        'amenity': 'pub',
+        'building': 'yes',
+        'name': 'The Ship Wright Public House'
+      }
+    },
+    {
+      'type': 'node',
+      'id': 9518890001,
+      'lat': 53.3979933,
+      'lon': -6.1271007,
+      'tags': {
+        'addr:city': 'Baldoyle',
+        'addr:country': 'IE',
+        'addr:county': 'Dublin',
+        'addr:housenumber': '12-13',
+        'addr:postcode': 'D13 VH92',
+        'addr:street': 'Main Street',
+        'amenity': 'pub',
+        'contact:facebook': 'https://www.facebook.com/The-White-House-Baldoyle-911528145557211',
+        'email': 'marywalsh10@gmail.com',
+        'name': 'The White House',
+        'phone': '+35318322323',
+        'website': 'http://thewhitehousebarandfood.com'
+      }
+    }
+  ]
+}
+
+
+{
+  'type': 'node',
+  'id': 9518890001,
+  'lat': 53.3979933,
+  'lon': -6.1271007,
+  'tags': {
+    'addr:city': 'Baldoyle',
+    'addr:country': 'IE',
+    'addr:county': 'Dublin',
+    'addr:housenumber': '12-13',
+    'addr:postcode': 'D13 VH92',
+    'addr:street': 'Main Street',
+    'amenity': 'pub',
+    'contact:facebook': 'https://www.facebook.com/The-White-House-Baldoyle-911528145557211',
+    'email': 'marywalsh10@gmail.com',
+    'name': 'The White House',
+    'phone': '+35318322323',
+    'website': 'http://thewhitehousebarandfood.com'
+  }
+}
